@@ -52,6 +52,13 @@ console.log(me.favThreeFoods[2])
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
+//   - Console.log your current shoe count.
+console.log(me.shoeCount)
+//   - Set your object's shoeCount to be what it was plus 1
+me.shoeCount = 12
+// Console logging updated shoe count
+console.log(me.shoeCount)
+
 
 
 /* 5. Add a new property to an existing object.
@@ -60,3 +67,7 @@ console.log(me.favThreeFoods[2])
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+//   - Add a 'favoriteColor' to your existing object
+me.favoriteColor = 'Blue'
+//   - Console.log your object
+console.log(me)
